@@ -25,7 +25,7 @@
 const log = require('npmlog');
 const _   = require('lodash');
 
-const ipaddr   = require('../ipaddr.js').ipaddr;
+const ipaddr   = require('ipaddr.js').ipaddr;
 const Protocol = require('../protocol.js').Protocol;
 
 /*
